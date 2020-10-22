@@ -10,6 +10,8 @@ public class switchbackParentWinow {
     public static void main(String[] args) {
         // Initialize Driver for chrome Driver
         System.setProperty("webdriver.chrome.driver", "./src/main/resources/chromedriver");
+
+        //Create instance of Driver
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://demoqa.com/browser-windows");
